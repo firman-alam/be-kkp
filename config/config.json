@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "firman25",
-    "database": "kkp",
-    "host": "127.0.0.1",
+    "username": "bde68860d2b39d",
+    "password": "d8bf6fe5",
+    "database": "heroku_08d386df19f348b",
+    "host": "us-cdbr-east-06.cleardb.net",
     "dialect": "mysql"
   },
   "test": {
@@ -14,10 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "bde68860d2b39d",
+    "password": "d8bf6fe5",
+    "database": "heroku_08d386df19f348b",
+    "host": "us-cdbr-east-06.cleardb.net",
     "dialect": "mysql"
   }
 }
