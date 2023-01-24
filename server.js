@@ -3,7 +3,6 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const cookieparser = require('cookie-parser');
-const corsOptions = require('./config/corsOptions');
 const path = require('path');
 
 const db = require('./models');
@@ -19,7 +18,7 @@ db.sequelize
     console.log(err);
   });
 
-app.use(cors(corsOptions));
+app.use(cors());
 app.use(express.json());
 app.use(cookieparser());
 
